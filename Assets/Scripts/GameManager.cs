@@ -49,10 +49,11 @@ using UnityEngine.SceneManagement;
 //}
 
 
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-
+    Button testbn;
 
     string CurrentScene;
     public string _Scene() { return CurrentScene; }
